@@ -157,6 +157,57 @@ Navbar
 Hero
 ===============
 */
+.banner{
+    height: 100vh;
+    background: var(--clr-primary-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner-container{
+    text-align: center;
+    max-width: 35rem;
+}
+.banner-container h1{
+    font-size: 1.5rem;
+    color: var(--clr-white);
+    text-transform: uppercase;
+}.banner-container p{
+    color: var(--clr-white);
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+ .hero-btn{
+     font-size: 1rem;
+     font-weight: 700;
+ }.hero-btn:hover{border-color: white;
+    background-color: transparent;
+    color: white;
+ }
+
+
+@media  screen and (min-width: 425px) {
+    .banner{
+        background: linear-gradient(0deg, rgba(2,0,36,0.4) 0%, rgba(9,9,121,0.4) 100%),url("../images/main.jpg")center/cover;
+
+    }
+    .banner-container{
+        max-width: 45rem;
+        padding: 0;
+
+    }
+    .banner-container h1 {
+        font-size: 4rem;
+    }
+    .hero-btn{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+    .banner-container p{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;}
+}
 /*
 ===============
 About
