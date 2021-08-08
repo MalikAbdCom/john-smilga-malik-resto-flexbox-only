@@ -173,15 +173,15 @@ section{
 }
 /* title add to globals */
 
-.about-heading{
+.section-title{
     text-align: center;
 
 }
-.about-heading h2{
+.section-title h2{
     text-transform: uppercase;
 
 }
-.about-heading span{
+.section-title span{
     color: var(--clr-primary-5);
 }
 /* section center add to globals */
@@ -287,7 +287,7 @@ About
 @media screen and (min-width: 992px){
     .about-center{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .about-image, .about-info {
         flex: 0 0 calc(50% - 2rem);
@@ -295,11 +295,11 @@ About
         margin-bottom: 0;
 
     }
-    .about-heading{
+    .section-title{
         margin-bottom: 5rem;
 
     }
-    .about-heading h2{
+    .section-title h2{
         margin-bottom: 2rem;
 
     }

@@ -1,18 +1,1 @@
-about section
-- section padding top bottom
-- sectiom title layout
-- sectiom title h2 layout text transform span
-- section center
-- media query min width >1170px
-all global
-
-about img, about info
-    margin botttom
-media query 992px
-    display flex
-    width
-        flex 0 0 calc 50% - 2rem
-    justify content space between
-    wrap wrap
-    margin bottom 0
-    align self center
+service
