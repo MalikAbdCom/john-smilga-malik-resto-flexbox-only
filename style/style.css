@@ -365,7 +365,7 @@ Services
         text-align: left;
     }
     .service-icon{
-align-self: start;
+        align-self: start;
         margin-right: 20px;
     }
 }
