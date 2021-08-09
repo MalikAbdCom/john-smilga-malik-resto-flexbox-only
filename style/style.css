@@ -362,7 +362,73 @@ Services
 Featured Tours
 ===============
 */
+.menu-items {
+  transition: var(--transition);
+  background-color: var(--clr-grey-10);
+  box-shadow: var(--light-shadow);
+  margin-bottom: 2rem;
+}
+.menu-items:hover {
+  box-shadow: var(--dark-shadow);
+  transform: scale(1.02);
+}
+.gambar-container {
+  position: relative;
+}
+.gambar-menu {
+  height: 15rem;
+  object-fit: cover;
+}
+.tanggal-menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: var(--clr-primary-4);
+  margin-bottom: 0;
+  color: white;
+  padding: 0.125rem 0.5rem;
+}
+.manu-info {
+  padding: 1rem 1rem 0.5rem 1rem;
+}
+.manu-info p {
+  margin-bottom: 0;
+}
+.harga-menu {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--clr-primary-3);
+}
+@media screen and (min-width: 480px){
+  .menu-items {
+    display: flex;
+  }
+  .gambar-container{
+    flex: 0 0 40%;
+  }
+}
+@media screen and (min-width: 600px) {
+  .menu-items {
+    display: initial;
+  }
+  .menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .menu-items{
+    flex: 0 0 calc(50% - 2rem);
 
+  }
+}@media screen and (min-width: 992px) {
+
+  .menu-items{
+    flex: 0 0 calc(33.33% - 2rem);
+
+  }
+}
 /*
 ===============
 Contact
