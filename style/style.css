@@ -505,17 +505,17 @@ Gallery
 .img-gl-container:hover .icon-gallery {
   opacity: 1;
 }
-@media screen and (min-width: 560px){
-  .fb-gallery{
+@media screen and (min-width: 560px) {
+  .fb-gallery {
     display: flex;
     flex-wrap: wrap;
-
   }
-  .img-gl-container{
+  .img-gl-container {
     flex: 0 0 50%;
   }
-}@media screen and (min-width: 992px){
-  .img-gl-container{
+}
+@media screen and (min-width: 992px) {
+  .img-gl-container {
     flex: 0 0 25%;
   }
 }
@@ -561,6 +561,6 @@ Footer
   letter-spacing: var(--spacing);
   color: var(--clr-white);
 }
-footer p{
+footer p {
   margin-bottom: 0;
 }

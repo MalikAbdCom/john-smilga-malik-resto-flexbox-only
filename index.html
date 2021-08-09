@@ -27,8 +27,89 @@
   <body>
     <h1>Malik | resto</h1>
     <!-- header  -->
-    <header class="home">
+    <header class="home" id="home">
       <!--    navigation-->
+      <nav>
+        <div class="nav-center">
+          <!--          nav-header-->
+          <div class="nav-header">
+            <img
+              class="logo-resto"
+              src="./images/logo.png"
+              alt="logo malik resto"
+            />
+            <button>
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!--          nav links-->
+          <ul class="nav-links">
+            <!-- single link -->
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#menu" class="nav-link scroll-link">menu</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">gallery</a>
+            </li>
+            <!-- end of single link -->
+          </ul>
+          <!-- end of nav links -->
+<!--          nav icon-->
+          <ul class="nav-icons">
+        <!-- single icon -->
+        <li>
+          <a
+                  href="https://www.facebook.com/malikabdullah.me"
+                  target="_blank"
+                  class="nav-icon"
+          >
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+        <li>
+          <a
+                  href="https://www.twitter.com/malikabdcom"
+                  target="_blank"
+                  class="nav-icon"
+          >
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+        <li>
+          <a
+                  href="https://www.github.com/malikabdcom"
+                  target="_blank"
+                  class="nav-icon"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </li>
+            <!-- end of single icon -->
+      </ul>
+          <!-- end of nav icons -->
+        </div>
+      </nav>
       <!--    banner-->
       <div class="banner">
         <div class="banner-container">
@@ -44,7 +125,7 @@
     <!-- end of header  -->
 
     <!-- about section -->
-    <section class="section-center">
+    <section class="section-center" id="about">
       <!--    heading about-->
       <div class="section-title">
         <h2>About <span>Us</span></h2>
@@ -78,7 +159,7 @@
     </section>
     <!-- end of about section -->
     <!-- services -->
-    <section class="bgr-services">
+    <section class="bgr-services" id="services">
       <div class="section-center">
         <!--        section-title-->
         <div class="section-title">
@@ -127,8 +208,8 @@
     </section>
     <!--end services -->
 
-    <!-- featured tours -->
-    <section class="section-center">
+    <!-- menu -->
+    <section class="section-center" id="menu">
       <!--      section title-->
       <div class="section-title">
         <h2>menu | <span>malik</span></h2>
@@ -159,7 +240,8 @@
             </div>
           </div>
         </div>
-        <!--      end of menu item--><!--      menu item-->
+        <!--      end of menu item-->
+        <!--      menu item-->
         <div class="menu-items">
           <div class="gambar-container">
             <img
@@ -265,7 +347,7 @@
         <!--      end of menu item-->
       </div>
     </section>
-    <!-- end of featured tours -->
+    <!-- end of menu -->
 
     <!-- contact -->
     <section class="contact-container">
@@ -335,11 +417,7 @@
         <!--        end of single image-->
         <!--        single img-->
         <div class="img-gl-container">
-          <img
-            class="img-gallery"
-            src="./images/resto-5.jpg"
-            alt=""
-          />
+          <img class="img-gallery" src="./images/resto-5.jpg" alt="" />
           <i class="fas fa-search-plus icon-gallery"></i>
         </div>
         <!--        end of single image-->
@@ -382,21 +460,33 @@
       <ul class="footer-icons">
         <!-- single icon -->
         <li>
-          <a href="https://www.facebook.com/malikabdullah.me" target="_blank" class="footer-icon">
+          <a
+            href="https://www.facebook.com/malikabdullah.me"
+            target="_blank"
+            class="footer-icon"
+          >
             <i class="fab fa-facebook"></i>
           </a>
         </li>
         <!-- end of single icon -->
         <!-- single icon -->
         <li>
-          <a href="https://www.twitter.com/malikabdcom" target="_blank" class="footer-icon">
+          <a
+            href="https://www.twitter.com/malikabdcom"
+            target="_blank"
+            class="footer-icon"
+          >
             <i class="fab fa-twitter"></i>
           </a>
         </li>
         <!-- end of single icon -->
         <!-- single icon -->
         <li>
-          <a href="https://www.github.com/malikabdcom" target="_blank" class="footer-icon">
+          <a
+            href="https://www.github.com/malikabdcom"
+            target="_blank"
+            class="footer-icon"
+          >
             <i class="fab fa-github"></i>
           </a>
         </li>
@@ -404,8 +494,8 @@
       </ul>
       <!-- end of footer icons -->
       <p class="copyright">
-        copyright &copy; malik | resto <span id="date"></span>.
-        all rights reserved
+        copyright &copy; malik | resto <span id="date"></span>. all rights
+        reserved
       </p>
     </footer>
     <!-- js -->
