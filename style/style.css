@@ -401,11 +401,11 @@ Featured Tours
   align-items: center;
   color: var(--clr-primary-3);
 }
-@media screen and (min-width: 480px){
+@media screen and (min-width: 480px) {
   .menu-items {
     display: flex;
   }
-  .gambar-container{
+  .gambar-container {
     flex: 0 0 40%;
   }
 }
@@ -418,15 +418,13 @@ Featured Tours
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .menu-items{
+  .menu-items {
     flex: 0 0 calc(50% - 2rem);
-
   }
-}@media screen and (min-width: 992px) {
-
-  .menu-items{
+}
+@media screen and (min-width: 992px) {
+  .menu-items {
     flex: 0 0 calc(33.33% - 2rem);
-
   }
 }
 /*
