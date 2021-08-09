@@ -74,15 +74,10 @@ a {
   text-decoration: none;
 }
 
-img {
+img:not(.logo-resto) {
   width: 100%;
   display: block;
 }
-
-/* img:not(.nav-logo) {
-  width: 100%;
-  display: block;
-} */
 
 h1,
 h2,
@@ -197,6 +192,65 @@ section {
 Navbar
 ===============
 */
+.navigation {
+  position: fixed;
+  background-color: var(--clr-white);
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-shadow: var(--dark-shadow);
+  z-index: 2;
+}
+.nav-icons {
+  display: none;
+}
+.nav-center {
+  width: 100%;
+  max-width: 1117px;
+  margin: 0 auto;
+}
+.logo-resto {
+  width: 15rem;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+}
+.nav-button {
+  background-color: transparent;
+  border: transparent;
+  transition: var(--transition);
+  font-size: 2rem;
+  cursor: pointer;
+}
+.nav-button:hover {
+  transform: scale(1.25);
+}
+.nav-link{
+  text-align: right;
+  display: block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  color: var(--clr-grey-2);
+  /*background-color: lightgreen;*/
+  transition: var(--transition);
+  text-transform: capitalize;
+}
+.nav-link:hover{
+  color: white;
+  padding-right: 2.5rem;
+  background-color: var(--clr-primary-3);
+}
+/*340*/
+.nav-links{
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-links{
+  height: 340px;
+}
 /*
 ===============
 Hero
@@ -500,6 +554,7 @@ Gallery
   transition: var(--transition);
 }
 .img-gl-container:hover .img-gallery {
+  cursor: pointer;
   opacity: 0.5;
 }
 .img-gl-container:hover .icon-gallery {
